@@ -1,0 +1,25 @@
+.container__articles{
+  margin-top: 20px;
+  
+  .container__background {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    opacity: 0.4;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    background-image: url(https://www.avanade.com/_next/static/media/spriteLogoLines.4bb5ba4c.svg);
+    background-size: 557%;
+    background-position: 17.44% 51.1%;
+    padding-top: 10.91796875%;
+  }
+
+  @media(min-width: 750px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+

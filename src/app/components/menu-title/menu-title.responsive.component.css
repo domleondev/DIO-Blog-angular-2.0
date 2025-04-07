@@ -1,0 +1,33 @@
+@media(max-width: 750px) {
+
+  .container__menu-title {
+    display: flex;
+    width: 700px;
+  }
+
+  .container__menu-title > h1{
+    margin-left: 6%;
+    font-size: 50px;
+  }
+
+}
+
+@media(max-width: 450px) {
+  .container__menu-title {
+    display: flex;
+    width: 400px;
+    margin-top: 80px;
+    justify-content: center;
+    border: none;
+  }
+
+
+  .container__menu-title > h1{
+    margin-left: 20px;
+    line-height: 47px;
+    font-size: 45px;
+    border: none;
+  }
+
+
+}

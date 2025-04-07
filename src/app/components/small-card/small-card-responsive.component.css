@@ -1,0 +1,25 @@
+@media(max-width: 750px) {
+    .container__small-card-content{
+    width: 800px;
+    }
+  }
+  @media(max-width: 450px) {
+    .container__small-card-content{
+      width: 400px;
+      flex-direction: column;
+    }
+  
+  
+    .container__small-card-content{
+    width: 400px;
+    font-size: 12px;
+  }
+  .small-card__title > h1 {
+    font-size: 13px;
+    margin: 0;
+  }
+  .small-card__photo > img {
+    margin-left: -15px;
+  }
+  
+  }

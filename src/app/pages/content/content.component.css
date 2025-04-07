@@ -1,0 +1,78 @@
+.container__content{
+
+  width: 100%;
+  height: 50vh;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content__text {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: auto;
+  margin-left: -10%;
+}
+
+.content__cover {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  height: auto;
+}
+
+.content__cover > img{
+  border-radius: 5px;
+  width: 600px;
+  max-width: 600px;
+  height: 350px;
+}
+
+.content__description{
+  margin-top: 15px;
+}
+
+.content__description > p{
+  margin-top: 20px;
+  color: rgb(198, 197, 197);
+}
+
+.back-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.back-home > a {
+  margin-top: -20px;
+  margin-right: 30px;
+  list-style: none;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+.container__background {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  opacity: 0.4;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url(https://www.avanade.com/_next/static/media/spriteLogoLines.4bb5ba4c.svg);
+  background-size: 557%;
+  background-position: 17.44% 51.1%;
+  padding-top: 10.91796875%;
+}
+
+.back-home > a :hover {
+  background: linear-gradient(90deg, #ff5800 12.66%, #ce0569 94.55%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
