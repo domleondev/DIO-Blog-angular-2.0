@@ -3,7 +3,7 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 30px;
-  width: 950px;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +11,22 @@
 
 }
 
+.big-card__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .big-card__title > h1  {
+  text-align: center;
   margin-top: 15px;
   font-size: 20px;
 }
 
 .big-card__description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -25,9 +35,25 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.big-card__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .big-card__photo > img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 450px;
   height: auto;
+}
+
+.big-card__content :hover {
+  background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
 }
 

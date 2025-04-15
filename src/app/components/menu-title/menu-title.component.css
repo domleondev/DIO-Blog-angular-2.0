@@ -3,17 +3,19 @@
   color: white;
   align-items: center;
   justify-content: center;
+  width: 100%
 }
 
 .container__menu-title > h1{
     background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
     background-clip: border-box;
     -webkit-background-clip: text;
+    text-align: center;
     -webkit-text-fill-color: hsla(0, 0%, 100%, 0);
     margin-top: 2%;
     margin-left: 3%;
     font-size: 4rem;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     line-height: 60px;
     font-weight: 700;
     font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;

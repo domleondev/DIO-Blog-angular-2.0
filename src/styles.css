@@ -3,10 +3,13 @@
 *{
   margin: 0;
   padding: 0;
+  width: 100%;
   box-sizing: border-box;
   font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
   color: #333;
+  
 }
+
 
 a{
   text-decoration: none;

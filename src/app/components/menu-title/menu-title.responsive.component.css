@@ -2,7 +2,7 @@
 
   .container__menu-title {
     display: flex;
-    width: 700px;
+    width: 100%;
   }
 
   .container__menu-title > h1{
@@ -15,10 +15,11 @@
 @media(max-width: 450px) {
   .container__menu-title {
     display: flex;
-    width: 400px;
+    width: 100%;
     margin-top: 80px;
     justify-content: center;
     border: none;
+    margin-bottom: 60px;
   }
 
 

@@ -2,7 +2,10 @@
 .container__menu-bar {
   display: flex;
   flex-direction: row;
-  width: 1920px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
   height: 60px;
   margin-top: -20px;
   align-items: center;
@@ -11,8 +14,9 @@
 
 .container__logo {
   display: flex;
-  margin-right: 37%;
+  margin-right: 10px;
   margin-left: 20px;
+  width: 30%;
 }
 
 p {
@@ -25,8 +29,12 @@ p {
   font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
 }
 
+.container__menu-links {
+  width: 70%;
+}
+
 .container__menu-links > ul > li{
-  margin-right: 30px;
+  margin-right: 20px;
   list-style: none;
   font-weight: bold;
   font-family: Segoe UI, OpenSans, Roboto, Arial, Tahoma, Helvetica, sans-serif;
@@ -36,6 +44,7 @@ p {
 .container__menu-links > ul{
   display: flex;
   flex-direction: row;
+  width: 50%;
 }
 
 .container__menu-links ul li a:hover {

@@ -1,11 +1,18 @@
 @media(max-width: 712px) {
-    .container__logo {
-      margin-left: 20px;
-      margin-right: 28%;
-    }
     .container__menu-bar {
-      width: 840px;
+      width: 100%;
     }
+
+    .container__logo {
+      width: 30%;
+      margin-left: 5%;
+
+    }
+
+    .container__menu-links {
+      width: 70%;
+    }
+   
     .container__menu-links > ul > li{
       margin-right: 20px;
     }
@@ -29,7 +36,7 @@
     }
   
     .container__menu-bar {
-      width: 410px; 
+      width: 100%;
       height: 65px;
       margin-top: -20px;
       position: fixed;
@@ -44,7 +51,7 @@
       display: block;
       position: fixed;
       padding: 6px;
-      margin-left: 335px;
+      margin-left:80%;
       opacity: 0.9;
     }
     
