@@ -8,6 +8,10 @@ import {dataFake} from '../../data/dataFake'
   styleUrls: ['./content.component.css','content-responsive.component.css']
 })
 export class ContentComponent implements OnInit {
+  noticia = {
+    id: 1 // ou o valor que fizer sentido pro seu teste
+  };
+
   photoCover:string = ""
   contentTitle:string = ""
   contentDescription:string = ""

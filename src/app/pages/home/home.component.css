@@ -9,22 +9,4 @@
   }
 }
 
-.container__background {
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
-}
-
-/* pseudo-elemento para a imagem de fundo */
-.container__background::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url('https://www.avanade.com/_next/static/media/spriteLogoLines.4bb5ba4c.svg');
-  background-size: 907%;
-  background-position: 22.44% 51.6%;
-  opacity: 0.5; 
-  z-index: -1;
-}
-
 

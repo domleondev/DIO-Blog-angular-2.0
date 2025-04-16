@@ -1,0 +1,45 @@
+<div class="comentarios-container">
+  <!-- Container principal com classe para estilização -->
+  
+    <h3 class="comentarios-titulo">Comentários</h3>
+    <!-- Título da seção de comentários -->
+  
+    <form (ngSubmit)="adicionarComentario()">
+    <!-- Formulário que, ao ser enviado, chama o método adicionarComentario() -->
+  
+      <input 
+        class="comentario-input"
+        [(ngModel)]="novoComentario.autor" 
+        name="autor" 
+        placeholder="Seu nome" 
+        required />
+      <!-- Campo de entrada para o nome do autor. Vinculado via ngModel ao objeto novoComentario -->
+  
+      <textarea 
+        class="comentario-textarea"
+        [(ngModel)]="novoComentario.texto" 
+        name="texto" 
+        placeholder="Seu comentário" 
+        required></textarea>
+      <!-- Campo de texto para o comentário, também ligado com ngModel -->
+  
+      <button 
+        class="comentario-botao"
+        type="submit">Enviar</button>
+      <!-- Botão que envia o formulário -->
+    </form>
+  
+    <div class="comentario" *ngFor="let comentario of comentarios">
+    <!-- Para cada item na lista de comentários, cria um bloco com texto e botão de excluir -->
+  
+      <p><strong>{{ comentario.autor }}:</strong> {{ comentario.texto }}</p>
+      <!-- Mostra o autor em negrito e o conteúdo do comentário -->
+  
+      <button 
+        class="comentario-excluir"
+        (click)="excluirComentario(comentario.id!)">Excluir</button>
+      <!-- Botão que chama excluirComentario com o ID do comentário -->
+    </div>
+  </div>
+  
+  

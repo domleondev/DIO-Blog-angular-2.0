@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
@@ -11,7 +11,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { QuizzComponent } from './components/quizz/quizz.component';
 import { BuzzfeedComponent } from './pages/buzzfeed/buzzfeed.component';
-
+import { ComentariosComponent } from './comentarios/comentarios.component';
+import { ComentarioService } from './services/comentario.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,15 @@ import { BuzzfeedComponent } from './pages/buzzfeed/buzzfeed.component';
     HomeComponent,
     ContentComponent,
     QuizzComponent,
+    ComentariosComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ComentarioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
