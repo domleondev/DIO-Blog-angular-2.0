@@ -1,0 +1,21 @@
+@media(min-width: 751px) {
+    .container__quizz-card {
+        width: 95%;
+        flex-direction: row;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+.quizz-card__photo > img{
+    height: auto;
+    width: 90%;
+}
+
+.quizz-card__title > h1 {
+    font-size: 35px;
+}
+
+.quizz-card__description > p {
+    font-size: 20px;
+}
+}

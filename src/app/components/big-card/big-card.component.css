@@ -30,7 +30,7 @@
   margin-top: 20px;
 }
 
-.big-card__description > p > a {
+.big-card__description > p {
   color: grey;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -46,11 +46,14 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  object-fit: cover;
   max-width: 450px;
   height: auto;
+  cursor: pointer; /* permite clicar como se fosse um link */
+  transition: transform 0.2s ease;
 }
 
-.big-card__content :hover {
+.big-card__link :hover {
   background: linear-gradient(90deg, #ce0569 12.66%, #ff5800 94.55%);
     background-clip: border-box;
     -webkit-background-clip: text;

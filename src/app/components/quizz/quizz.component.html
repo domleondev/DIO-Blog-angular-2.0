@@ -1,0 +1,26 @@
+<div class="container__quizz-card">
+
+    <div class="quizz-card__photo">
+
+        <img
+            [routerLink]="['/buzzfeed']"
+            src="{{ photoCover }}"
+            alt=""
+            height="200px"
+            srcset=""
+            class="quizz-card__image"
+          >
+    </div>
+<a [routerLink]="['/buzzfeed']" class="quizz-card__link">
+  <div class="quizz-card__content">
+      <div class="quizz-card__title">
+        <h1>{{ cardTitle }}</h1>
+      </div>
+  
+      <div class="quizz-card__description">
+        <p>{{ cardDescription }}</p>
+      </div>
+  </div>
+</a>
+  </div>
+  

@@ -1,0 +1,21 @@
+@media(max-width: 750px) {
+    .quizz__container{
+        width: 80%;
+    }
+}
+
+@media(max-width: 450px) {
+    body {
+        margin-top: 40px;
+    }
+
+    .quizz__container{
+        width: 80%;
+    }
+
+    .back-home > a {
+        width: 35%;
+        margin-left: 8%;
+    }
+
+}

@@ -22,5 +22,11 @@ export const dataFake = [
     "title": "DIO oferece 75 mil bolsas gratuitas para aprender Inteligência Artificial com a Microsoft",
     "description": "A Microsoft e a DIO lançam o programa Microsoft AI for Tech, uma iniciativa que é parte do programa Microsoft ConectAI que tem o objetivo de capacitar 5 milhões de pessoas em habilidades de inteligência artificial (IA) até 2028, preparando-as para o futuro do trabalho.",
     "photoCover":"https://assets.dio.me/wcg9bgTD7vtqBcAXRfsTuD2TYdauPjlN3y6MOOQGaPw/f:webp/q:80/w:516/L3RyYWNrcy9jb3Zlci83OTFkNWVmMi05NzhmLTRhYmMtOTMwZC1mY2IyYzhjMTNjYjUucG5n"
+  },
+  {
+    "id":"5",
+    "title": "DIO oferece 75 mil bolsas gratuitas para aprender Inteligência Artificial com a Microsoft",
+    "description": "A Microsoft e a DIO lançam o programa Microsoft AI for Tech, uma iniciativa que é parte do programa Microsoft ConectAI que tem o objetivo de capacitar 5 milhões de pessoas em habilidades de inteligência artificial (IA) até 2028, preparando-as para o futuro do trabalho.",
+    "photoCover":"https://assets.dio.me/wcg9bgTD7vtqBcAXRfsTuD2TYdauPjlN3y6MOOQGaPw/f:webp/q:80/w:516/L3RyYWNrcy9jb3Zlci83OTFkNWVmMi05NzhmLTRhYmMtOTMwZC1mY2IyYzhjMTNjYjUucG5n"
   }
 ]

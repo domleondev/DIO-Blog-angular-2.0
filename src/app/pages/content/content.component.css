@@ -24,10 +24,11 @@
 }
 
 .content__cover > img{
-  border-radius: 5px;
-  width: 600px;
+  border-radius: 10px;
+  width: auto;
   max-width: 600px;
-  height: 350px;
+  height: auto;
+  max-height: 400px;
 }
 
 .content__description{

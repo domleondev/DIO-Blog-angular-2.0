@@ -12,12 +12,16 @@
 
 .small-card__photo > img {
   object-fit: cover;
+  border-radius: 10px;
   width: 200px;
   min-width: 200px;
   width: 100%;
   height: auto;
-  max-height: 170px;
+  max-height: 180px;
   margin-right: 20px;
+  cursor: pointer; /* permite clicar como se fosse um link */
+  transition: transform 0.2s ease;
+
 }
 
 h1 {
