@@ -1,14 +1,21 @@
-# AngularBlog
+  ## AngularBlog
+
+# Front-End
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
-![image](https://github.com/user-attachments/assets/0d86d30c-479d-42f9-933a-914135280c2c)
-![image](https://github.com/user-attachments/assets/67bab6e6-8fec-4914-85dd-25927e07e462)
-![image](https://github.com/user-attachments/assets/d5e867d9-b856-40f1-9130-1c7618c50efd)
-![image](https://github.com/user-attachments/assets/967f375b-6cc8-4a0d-ae54-5a6ae5784413)
-![image](https://github.com/user-attachments/assets/959b6227-b746-40d4-aee2-15cb082ddeb2)
+![image](https://github.com/user-attachments/assets/3b0186c8-dcaa-4b18-8692-e2c3edba1c3c)
 
+![image](https://github.com/user-attachments/assets/3d2c5a4c-96b0-4f9a-afa8-14347b2c4e82)
 
+![image](https://github.com/user-attachments/assets/97408d6d-c9f7-4628-b8b1-c8c23f2a61d8)
 
+![image](https://github.com/user-attachments/assets/34747152-ea9d-4def-a3a8-169209231849)
+
+![image](https://github.com/user-attachments/assets/091955e9-5aaa-4f9c-81b8-465e13585da2)
+
+![image](https://github.com/user-attachments/assets/7430a6dc-e075-4ffc-8c40-5290afeb3742)
+
+![image](https://github.com/user-attachments/assets/9ff81101-d754-4c63-8c89-293d36a6ac98)
 
 
 
@@ -20,17 +27,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  ## Back-end
 
-## Running unit tests
+## Open /comentarios-api
+Open the comentarios-api folder with your IDE.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Development server
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `./gradlew bootRun` for a dev server.
 
 ## Further help
 
